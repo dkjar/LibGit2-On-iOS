@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-	name: "Clibgit2",
+	name: "libgit2",
 	platforms: [.iOS(.v13)],
 	products: [
 		.library(
-			name: "Clibgit2",
-			targets: [ "Clibgit2" ]
+			name: "libgit2",
+			targets: [ "libgit2" ]
 		),
 	],
 	dependencies: [],
 	targets: [
 		.binaryTarget(
-			name: "Clibgit2",
-			url: "https://github.com/thebaselab/LibGit2-On-iOS/releases/download/v1.3.1-p2/Clibgit2.xcframework.zip",
-			checksum: "a884105f9be9b56d867236c1919772e9ec2d2b786b96c5d91c5beeac08ed7b2d"
+			name: "libgit2",
+			url: "https://github.com/dkjar/LibGit2-On-iOS/archive/refs/tags/1.3.2.zip",
+			checksum: "595c60283c30c3b0e783836307de3047586adc06bd0433a24734b6ca4fe7c015"
 		),
 	]
 )
